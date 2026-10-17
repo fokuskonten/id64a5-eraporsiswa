@@ -1,0 +1,27 @@
+================================================================================
+INFORMASI AKUN LOGIN & PANDUAN PENGGUNAAN RESMI
+Aplikasi   : ERaporSiswa (Aplikasi Penilaian Siswa Sekolah Dan Cetak Lembar Rapor)
+SKU        : ID64A5
+Penerbit   : FokusKonten Official (https://fokuskonten.my.id)
+Bantuan WA : +62 851-8301-1318
+================================================================================
+
+1. CARA MENJALANKAN APLIKASI
+--------------------------------------------------------------------------------
+- Pemasangan Baru  : Dobel-klik 'SETUP_OTOMATIS.bat'
+- Buka Aplikasi    : Dobel-klik 'BUKA_APLIKASI.bat'
+- Akses Peramban   : http://localhost/eraporsiswa/
+
+2. KREDENSIAL AKUN LOGIN RESMI
+--------------------------------------------------------------------------------
+Akun [1]:
+   - Username / User : admin
+   - Password / Sandi: admin
+
+3. KONEKSI BASIS DATA (DATABASE)
+--------------------------------------------------------------------------------
+- Database : e_raport
+- Host     : 127.0.0.1 (Port: 3306)
+- User     : root
+- Password : (Kosong/Tanpa password)
+================================================================================
