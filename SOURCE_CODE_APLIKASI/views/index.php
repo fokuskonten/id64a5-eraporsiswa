@@ -2,11 +2,14 @@
 <html>
 
 <head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="<?=base_url('favicon.ico');?>">
+    <link rel="icon" type="image/svg+xml" href="<?=base_url('favicon.svg');?>">
+    <link rel="apple-touch-icon" href="<?=base_url('apple-icon.png');?>">
+    <link rel="manifest" href="<?=base_url('manifest.json');?>">
+    <meta name="theme-color" content="#3c8dbc">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Blank Page</title>
+    <title>E-Rapor Siswa — FokusKonten</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -40,11 +43,11 @@
 
         <header class="main-header">
             <!-- Logo -->
-            <a href="<?=base_url('assets/');?>index2.html" class="logo">
+            <a href="<?=base_url('dashboard');?>" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><b>E</b>R</span>
+                <span class="logo-mini"><img src="<?=base_url('logo.png');?>" style="height:32px; width:32px; border-radius:50%; vertical-align:middle;"></span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>E</b>-Raport</span>
+                <span class="logo-lg"><img src="<?=base_url('logo.png');?>" style="height:30px; width:30px; border-radius:50%; margin-right:8px; vertical-align:middle;"><b>E-Rapor</b> Siswa</span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top">
@@ -166,12 +169,12 @@
                 <!-- Sidebar user panel -->
                 <div class="user-panel">
                     <div class="pull-left image">
-                        <img src="<?=base_url('assets/');?>dist/img/user2-160x160.jpg" class="img-circle"
+                        <img src="<?=base_url('logo.png');?>" class="img-circle" style="width:45px; height:45px; border-radius:50%; border:2px solid #3c8dbc; object-fit:cover;"
                             alt="User Image">
                     </div>
                     <div class="pull-left info">
-                        <p>Alexander Pierce</p>
-                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                        <p>Administrator</p>
+                        <a href="#"><i class="fa fa-circle text-success"></i> FokusKonten Official</a>
                     </div>
                 </div>
                 <!-- sidebar menu: : style can be found in sidebar.less -->
@@ -287,10 +290,9 @@
 
         <footer class="main-footer">
             <div class="pull-right hidden-xs">
-                Page rendered in <strong>{elapsed_time}</strong> seconds.
+                <b>E-Rapor Siswa PWA</b> v1.0.0
             </div>
-            <strong>Copyright &copy; <?=date('Y');?> <a href="https://nokencode.com">Nokencode</a>.</strong> All rights
-            reserved.
+            <strong>Hak Cipta &copy; <?=date('Y');?> <a href="https://fokuskonten.my.id" target="_blank" style="color: #3c8dbc; font-weight: 600;">FokusKonten Official</a>.</strong> Seluruh hak cipta dilindungi.
         </footer>
     </div>
     <!-- ./wrapper -->
